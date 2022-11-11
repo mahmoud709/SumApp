@@ -18,5 +18,5 @@ jops:
         run: pwd
 
       - name: 'Testing printing'
-        run: echo mahmoud
+        run: echo 'mahmoud'
 
