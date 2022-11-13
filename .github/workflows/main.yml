@@ -23,5 +23,5 @@ jobs:
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/javaapp .
 
       - name: 'Pushing image to dockerHup'
-        run: docker push -t ${{ secrets.DOCKER_USERNAME }}/javaapp  
+        run: docker push  ${{ secrets.DOCKER_USERNAME }}/javaapp  
 
